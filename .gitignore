@@ -1,0 +1,22 @@
+# 更新后的.gitignore
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# 数据文件
+data/medical.db
+training_data/
+
+# 模型文件
+models/symptom_classifier/saved_model/
+models/dialogue_model/saved_model/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
